@@ -1,0 +1,42 @@
+.footer {
+    width: 100%;
+    max-width: 1385px;
+    font-size: 12px;
+    padding-left: 5rem;
+    background: #fcfeff;
+
+}
+
+.fLists {
+    width: 80%;
+    display: flex;
+    color: rgb(218, 240, 246);
+    justify-content: space-between;
+    margin-bottom: 50px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.fList {
+    list-style: none;
+    padding: 2px;
+}
+
+.fListItem {
+    margin-bottom: 10px;
+    color: #003580;
+}
+
+.fListItem:hover {
+    color: rgb(4, 148, 164);
+    font-size: 16px;
+}
+
+.fText {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(3, 76, 97);
+    padding: 10px;
+    margin-bottom: 30px;
+
+}

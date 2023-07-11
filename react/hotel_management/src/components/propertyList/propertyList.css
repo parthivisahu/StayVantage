@@ -1,0 +1,43 @@
+.pList {
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.pListItem {
+    flex: 1;
+    overflow: hidden;
+    border-radius: 20px;
+    /* height: 300px; */
+    cursor: pointer;
+}
+
+.pListImg {
+    height: 17rem;
+    width: 35rem;
+    object-fit: cover;
+    box-shadow: 7px 0px 20px 0px #086b8b95;
+    transition: 0.3s ease-in-out;
+}
+
+.pListImg:hover {
+    transform: scale(1.1);
+}
+
+.pListTitles>h1 {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.pListTitles {
+    text-align: center;
+    padding: 10px;
+    background-color: #aee6ed;
+}
+
+.pListTitles>h2 {
+    font-size: 14px;
+    font-weight: 300;
+}

@@ -1,0 +1,38 @@
+.featuredImg {
+    height: 20rem;
+    width: 25rem;
+    transition: 0.3s ease-out;
+}
+
+.featuredImg:hover {
+    cursor: pointer;
+    transform: scale(1.4);
+
+}
+
+.featuredItem {
+    position: relative;
+    color: rgb(218, 249, 249);
+    overflow: hidden;
+    height: 250px;
+    border-radius: 20px;
+    font-size: 12px;
+    box-shadow: 10px 0px 30px 0px #086b8b95;
+}
+
+.featured {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: -12rem;
+}
+
+.featuredTitles {
+    position: absolute;
+    top: 10px;
+    left: 2rem;
+    text-align: center;
+    background-color: rgba(4, 3, 46, 0);
+}

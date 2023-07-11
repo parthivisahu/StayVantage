@@ -1,0 +1,180 @@
+.header {
+    background-image: linear-gradient(to right, rgb(189, 240, 251), rgb(154, 205, 241));
+    display: flex;
+    justify-content: right;
+    position: relative;
+    z-index: 0;
+    top: -43.5rem;
+    margin: 8px;
+    width: 70%;
+    margin-left: 12rem;
+    border-radius: 30px;
+    border: #b5d8eb;
+
+}
+
+.headerContainer {
+    width: 75%;
+    height: 13rem;
+    max-width: 1324px;
+    margin: 20px 10rem 20px 0rem;
+}
+
+.headerContainer.listMode {
+    margin: 20px 0px 0px 0px;
+}
+
+.headerList {
+    display: flex;
+    gap: 50px;
+}
+
+.headerListItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.headerListItem:hover {
+    color: #b5d8eb;
+    background-color: #01141f;
+    cursor: pointer;
+}
+
+.headerListItem.active {
+    border: 2px solid rgb(86, 83, 83);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.headerTitle {
+    padding-top: 20px;
+}
+
+.headerDesc {
+    margin: 10px 0px;
+}
+
+.headerBtn {
+    background-color: rgb(183, 233, 247);
+    color: black;
+    font-weight: 700;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+
+.headerBtn:hover {
+    opacity: .7;
+    transform: scale(1.1);
+}
+
+.headerSearch {
+    height: 40px;
+    background-color: rgb(4, 81, 114);
+    border: 3px solid #01141f;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -2rem;
+    width: 80%;
+
+}
+
+.headerIcon {
+    color: rgb(183, 233, 247);
+}
+
+.headerIcon:hover {
+    color: #6a8796;
+}
+
+.headerSearchItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerSearchInput {
+    border: none;
+    outline: none;
+    background-color: rgb(4, 81, 114);
+    color: rgb(183, 233, 247);
+    font-size: 14px;
+}
+
+.headerSearchInput::placeholder {
+    color: rgba(183, 233, 247, 0.742);
+    font-size: 15px;
+}
+
+.headerSearchInput::placeholder:hover {
+    color: #0f1d25;
+    cursor: pointer;
+}
+
+.headerSearchInput input {
+    color: rgb(183, 233, 247);
+}
+
+.headerSearchText {
+    color: rgb(183, 233, 247);
+    cursor: pointer;
+}
+
+.headerSearchText:hover {
+    color: #33a3e3;
+}
+
+.date {
+    position: absolute;
+    top: 50px;
+
+}
+
+.options {
+    position: absolute;
+    top: 50px;
+    background-color: rgb(183, 233, 247);
+    color: rgb(10, 57, 53);
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+}
+
+.optionItem {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.optionCounter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    color: black;
+}
+
+.optionCounterButton {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #0f2332;
+    color: #101c24;
+    cursor: pointer;
+    background-color: white;
+}
+
+.optionCounterButton:disabled {
+    cursor: not-allowed;
+    border: 2px solid #0f2332;
+}

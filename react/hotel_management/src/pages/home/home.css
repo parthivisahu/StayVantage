@@ -1,0 +1,51 @@
+.homeImage .img1 {
+    width: 80%;
+    height: 22rem;
+    z-index: -1;
+    margin-top: 5rem;
+    position: relative;
+    object-fit: contain;
+    margin-left: 8rem;
+    bottom: -10rem;
+    z-index: 0;
+    padding-bottom: 5rem;
+}
+
+.homeImage {
+    background-image: linear-gradient(to right, rgb(11, 80, 95), rgb(3, 40, 67));
+    z-index: -1;
+    padding-bottom: 38px;
+    margin: 30px;
+    border-radius: 20px;
+
+}
+
+.homeContainer {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.homeTitle {
+    width: 1224px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 5rem;
+    color: rgb(7, 48, 70);
+    font-family: monospace;
+
+}
+
+.homeTitle1 {
+    width: 1224px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 5rem;
+    color: rgb(7, 48, 70);
+    font-family: monospace;
+}
