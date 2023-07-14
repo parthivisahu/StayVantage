@@ -1,0 +1,50 @@
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel img {
+    max-width: 100%;
+    width: 1424px;
+    height: 500px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    position: absolute;
+    top: 2rem;
+    padding-top: 20px;
+    left: 0;
+    object-fit: cover;
+
+}
+
+.carousel img.active {
+    opacity: 1;
+    position: relative;
+    transform: translateX(0);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.carousel img.previous {
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    z-index: -1;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.carousel img.next {
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(100%);
+    z-index: -1;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}

@@ -6,7 +6,7 @@ import "react-bootstrap"
 export default function RegisterPage() {
   const [name,setName] = useState('');
   const [email,setEmail] = useState('');
-  const [password,setPassword] = useState(true);
+  const [password,setPassword] = useState(false);
   async function registerUser(ev) {
     ev.preventDefault();
     try {
@@ -26,7 +26,7 @@ export default function RegisterPage() {
         <h1 className="text-4xl text-center mb-4">Register</h1>
         <form className="max-w-md mx-auto" onSubmit={registerUser}>
           <input type="text"
-                 placeholder="John Doe"
+                 placeholder="Your Name"
                  value={name}
                  onChange={ev => setName(ev.target.value)} />
           <input type="email"

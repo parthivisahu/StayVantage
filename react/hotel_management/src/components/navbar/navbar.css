@@ -50,4 +50,16 @@
 
 .navItem {
     padding-right: 30px;
+    text-align: right;
+}
+
+.user {
+    text-align: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    color: rgb(6, 61, 79);
+    background-color: rgb(168, 214, 219);
+    padding: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
 }
