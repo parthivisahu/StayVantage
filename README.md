@@ -7,7 +7,6 @@ Welcome to StayVantage, your all-in-one Hotel Management System that empowers ho
 - [🚀 Technologies Used](#technologies-used)
 - [⚙️ Installation](#installation)
 - [💻 Usage](#usage)
-- [📸 Screenshots](#screenshots)
 - [🤝 Contributing](#contributing)
 - [📜 License](#license)
 - [📞 Contact](#contact)
